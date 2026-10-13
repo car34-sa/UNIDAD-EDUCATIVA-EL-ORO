@@ -1,0 +1,41 @@
+body ,html{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(w.jpeg) center center;
+    background-size: cover;
+}
+.contenedor{
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(255, 251, 230, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.boton-redireccion{
+    background-color:brown;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.boton-redireccion:hover{
+    background-color: #ff4f3b
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+h1 img{
+    height: 75px;
+    width: auto;
+}
