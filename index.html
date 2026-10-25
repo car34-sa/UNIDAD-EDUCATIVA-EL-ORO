@@ -15,6 +15,29 @@
         <p>Bienvenidos a la Unidad Educativa "El Oro"</p>
         <a href="" class="boton-redireccion">Haz clic aqui</a>
 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<header>
+    <button class="menu-btn" id="menuBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+<nav class="menu" id="menu">
+    <a href="#inicio">Inicio</a>
+    <a href="#contactanos">Contactanos</a>
+    <a href="#ayuda">Ayuda</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#nosotros">Nosotros</a>
+</nav>
+</header>
+<script>
+    const menuBtn = document.getElementById(menuBtn);
+    const menu = document.getElementById(menu);
+
+    menuBtn.addEventlistener("click" ,() => {
+        menuBtn.classList.toggle("activo");
+        menu.classList.toggle("activo");
+    } )
     </driv>
 </body>
 </html>
